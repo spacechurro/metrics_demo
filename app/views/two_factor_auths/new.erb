@@ -1,0 +1,13 @@
+<% if flash[:error].present? -%>
+  <%= flash[:error] -%>
+  <br /><br />
+<% end -%>
+
+<%= form_tag(two_factor_auths_path) do %>
+  correct code: 1234
+  <br />
+  <%= label_tag(:code, "code") %>
+  <%= text_field_tag(:code) %>
+  <br /><br />
+  <%= submit_tag %>
+<% end %>

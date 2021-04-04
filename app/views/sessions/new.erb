@@ -1,0 +1,19 @@
+<% if flash[:error].present? -%>
+  <%= flash[:error] -%>
+  <br /><br />
+<% end -%>
+
+<%= form_tag(sessions_path) do %>
+  correct email: john@example.com
+  <br />
+  <%= label_tag(:email, "email") %>
+  <%= text_field_tag(:email) %>
+  <br />
+  <br />
+  correct password: asdf1234
+  <br />
+  <%= label_tag(:password, "password") %>
+  <%= text_field_tag(:password) %>
+  <br /><br />
+  <%= submit_tag("Log in") %>
+<% end %>
