@@ -1,3 +1,9 @@
+# Slides
+https://docs.google.com/presentation/d/1ly9Dd9OjfrAYVPftFa0qZWe8EmU6t2YOj13hZa7KbuA/edit?usp=sharing
+
+# Demo app
+https://metrics-demo.herokuapp.com
+
 # New Relic graphs
 ## Login Funnel
 https://chart-embed.service.newrelic.com/herald/83f0403d-e53e-4693-a999-efc8135ce657?height=400px&timepicker=true
